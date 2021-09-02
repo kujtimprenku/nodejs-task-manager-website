@@ -38,9 +38,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Documentation
 
-### edit Environment variables 
+### edit Environment variables
 
-In /src/environments/environments.ts for production /src/environments/environments.prod.ts
+In `/src/environments/environments.ts` for production `/src/environments/environments.prod.ts`
 
 Set the value for apiUrl field.
 
@@ -54,7 +54,7 @@ export const environment = {
 
 To make api calls first extend the base service located in `/src/app/services/base/base.service.ts` into your feature service.
 
-For example here MoviesService extends BaseService.
+For example here `MoviesService` extends `BaseService`.
 
 ```javascript
 import { HttpClient } from '@angular/common/http';
@@ -73,9 +73,9 @@ export class MoviesService extends BaseService<MovieModel> {
 }
 ```
 
-BaseService exposes methods for making CRUD API calls for example to get data we can use `getData` method.
+`BaseService` exposes methods for making CRUD API calls for example to get data we can use `getData` method.
 
-In the components we first need to inject the Service in the constructor, this allowes us to use methods of the Service.
+In the components we first need to inject the service in the constructor, this allowes us to use methods of the service.
 
 ```javascript
 import { Component, OnInit } from '@angular/core';
@@ -118,7 +118,7 @@ As an example navigate to `/src/app/modules/search`.
 
 To lazy load a module we need to add it to the routes array in `/src/app/app-routing.module.ts`
 
-If the module is available only for logged-in users, we add the canActivate property and then add the AuthGuard.
+If the module is available only for logged-in users, we add the `canActivate` property and then add the `AuthGuard`.
 
 Everything about authentication is located under `/src/app/core/auth`.
 
@@ -141,9 +141,9 @@ const routes: Routes = [
 
 In this application we have added angular material components.
 
-To use a specific component we first need to add it to the imports array of MaterialModule.
+To use a specific component we first need to add it to the imports array of `MaterialModule`.
 
-We also need to export the component so that every other module that imports the MaterialModule can have access to angular material components.
+We also need to export the component so that every other module that imports the `MaterialModule` can have access to angular material components.
 
 ```javascript
 import {MatButtonModule} from '@angular/material/button';
