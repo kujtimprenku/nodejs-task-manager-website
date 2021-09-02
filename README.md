@@ -26,16 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Team Collaboration Guideline
-- Push to ```master``` is forbidden (!)
-- Create a branch based on develop branch
-    - ```^feature/[a-zA-Z0-9\-]$```
-    - ```^bug/[a-zA-Z0-9\-]$```
-    - ```^hotfix/[a-zA-Z0-9\-]$```
-- Merge develop branch in your branch
-- Create a pull request
-- Done
-
 ## Documentation
 
 ### edit Environment variables
