@@ -38,7 +38,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Documentation
 
-### edit Environment variables in /src/environments/environments.ts for production /src/environments/environments.prod.ts
+### edit Environment variables 
+
+In /src/environments/environments.ts for production /src/environments/environments.prod.ts
 
 Set the value for apiUrl field.
 
