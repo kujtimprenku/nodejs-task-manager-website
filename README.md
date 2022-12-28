@@ -7,5 +7,5 @@ npm run start
 
 Run dev mode:
 ```bash
-npm run start
+npm run dev
 ```
